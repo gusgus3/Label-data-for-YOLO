@@ -21,10 +21,15 @@ Next, in the ImageSets directory we run: python test.py, this will create four n
 B.	Then, modify the next direction darknet/cfg/coco.data
 classes= 1 # 自己的类别
 train  = 2007_train.txt # 由voc_label.py生成
+
 valid  = 2007_test.txt # 由voc_label.py生成
+
 #valid = data/coco_val_5k.list
+
 names = data/coco.names
+
 backup = ./backup #模型的存放位置
+
 eval=coco
 
 C.	Then, move the voc_label.py file into darknet file and make some modifications to sets and classes, according to the necessities.
