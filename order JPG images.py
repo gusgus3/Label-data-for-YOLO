@@ -3,7 +3,7 @@ import os
 
 directory = "D:/Data/newdata/"  # Replace with the directory path where your JPG files are located
 new_name = "Fire"       # Replace with the new name you want to give to your JPG files
-new_directory = "D:/BIT/大四/毕业设计/Data/newdata/"  # New directory to save the renamed files
+new_directory = "D:/Data/newdata/"  # New directory to save the renamed files
 start_index = 1
 
 # Create the new directory if it does not exist
