@@ -37,6 +37,7 @@ At darknet terminal run: python voc_label.py to transform the label files into .
 
 D.	Next, modify the coco.names files at ./data/coco.names. Check the train and valid directory file. 
 classes= 1
+
 train  = /home/liyufeng/test/darknet/2007_train.txt
 valid  = /home/liyufeng/test/darknet/2007_test.txt
 names = data/coco.names
