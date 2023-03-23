@@ -85,4 +85,4 @@ Classes= number of your classes
 
 At this time we can start training the model: 
 
-**./darknet detector train cfg/coco.data cfg/yolov4-custom.cfg yolov4.conv.137**
+**`./darknet detector train cfg/coco.data cfg/yolov4-custom.cfg yolov4.conv.137`**
