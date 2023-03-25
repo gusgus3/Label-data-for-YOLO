@@ -11,9 +11,8 @@ The present repository aims to guide you during the proces of preparing the Data
 
 ## How to use this repository 
 
-Once you prepare the environment for training a model with YOLOv4 on the darknet 
+Once you prepare the environment for training a model with YOLO on the darknet 
 - [YOLOv4](https://medium.com/@alexeyab84/yolov4-the-most-accurate-real-time-neural-network-on-ms-coco-dataset-73adfd3602fe?source=friends_link&sk=6039748846bbcf1d960c3061542591d7)
-then you can start preparing the data with this repository.
 
 About Darknet framework: http://pjreddie.com/darknet/
 
@@ -32,7 +31,7 @@ First, be sure to get at least a few thousand images for each class you want you
 
 LabelMe will give you JSON format labeled files. However, we require the data labeled in XML format, to get this work done you can use the labelme_to_xml python code to transform the form of data to XML.
 
-At this point, the data has two folders one for the images and another for the XML files. 
+At this point, the data has two folders one for the images and another for the XML files.
 Next, we need to prepare the data into the darknet file for training the model.
 
 * A.	Dataset Preparation:
